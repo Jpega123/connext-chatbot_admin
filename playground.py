@@ -16,7 +16,7 @@ import datetime
 import pytz
 import mimetypes
 from pdfminer.high_level import extract_text
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 import google.generativeai as genai
 from langchain_community.vectorstores import FAISS
